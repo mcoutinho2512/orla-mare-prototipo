@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orla Mare Restaurante & Bar | Frutos do mar, drinks e música ao vivo em Piratininga, Niterói</title>
+<meta name="description" content="Restaurante e bar em Piratininga, Niterói. Frutos do mar, carnes, massas, drinks autorais, música ao vivo todos os dias e espaço kids. Terça a domingo, 11h à meia-noite.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://www.orlamare.com.br/">
+<meta name="theme-color" content="#001a35">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Orla Mare Restaurante & Bar">
+<meta property="og:title" content="Orla Mare Restaurante & Bar — Piratininga, Niterói">
+<meta property="og:description" content="Gastronomia litorânea, drinks autorais, música ao vivo todos os dias e espaço kids. Terça a domingo, 11h à meia-noite.">
+<meta property="og:url" content="https://www.orlamare.com.br/">
+<meta property="og:image" content="https://www.orlamare.com.br/img/frutos-do-mar.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="img/amigos.jpg" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.orlamare.com.br/#org",
+      "name": "Orla Mare Restaurante & Bar",
+      "legalName": "Orla Mare Restaurante e Bar Ltda",
+      "url": "https://www.orlamare.com.br/",
+      "logo": "https://www.orlamare.com.br/img/simbolo.jpg",
+      "sameAs": ["https://www.instagram.com/oficialorlamare/"]
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://www.orlamare.com.br/#restaurante",
+      "name": "Orla Mare Restaurante & Bar",
+      "parentOrganization": {"@id": "https://www.orlamare.com.br/#org"},
+      "image": "https://www.orlamare.com.br/img/frutos-do-mar.jpg",
+      "url": "https://www.orlamare.com.br/",
+      "telephone": "+55-21-97244-1448",
+      "priceRange": "R$ 80–200",
+      "servesCuisine": ["Frutos do mar", "Brasileira", "Carnes", "Massas", "Drinks"],
+      "acceptsReservations": "True",
+      "hasMenu": "https://www.orlamare.com.br/#cardapio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Professor Ernani Farias Alves, 172",
+        "addressLocality": "Niterói",
+        "addressRegion": "RJ",
+        "postalCode": "24350-680",
+        "addressCountry": "BR"
+      },
+      "geo": {"@type": "GeoCoordinates", "latitude": -22.9448082, "longitude": -43.0582581},
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "11:00", "closes": "23:59"
+      }],
+      "amenityFeature": [
+        {"@type": "LocationFeatureSpecification", "name": "Espaço kids", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Música ao vivo", "value": true}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --navy:#001a35; --navy-2:#0a2547; --ink:#20243c; --peach:#fda76c; --peach-2:#f3ceb6; --sand:#fbf4ee;
+  --text:#1b2233; --muted:#5d6577; --white:#fff;
+  --serif:'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans:'PT Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --r:18px; --shadow:0 18px 40px -18px rgba(0,26,53,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:var(--sans);color:var(--text);background:var(--sand);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1180px,92vw);margin-inline:auto}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15;letter-spacing:.2px}
+.eyebrow{font:700 .78rem/1 var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--peach)}
+.btn{display:inline-flex;align-items:center;gap:.6em;font:700 1rem/1 var(--sans);text-decoration:none;padding:1em 1.5em;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .2s,background .2s,color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-peach{background:var(--peach);color:var(--navy)}
+.btn-peach:hover{background:#ffb986}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* faixa de protótipo */
+.proto{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#ffe36b;color:#1b1b1b;text-align:center;font:700 .8rem/1.3 var(--sans);padding:.45em 1em}
+
+/* topo */
+header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .3s,box-shadow .3s}
+header.solid{background:rgba(0,26,53,.96);box-shadow:0 6px 24px -12px rgba(0,0,0,.6);backdrop-filter:blur(8px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:#fff}
+.brand img{width:46px;height:46px;border-radius:50%;object-fit:cover;object-position:50% 42%;background:var(--navy);border:1px solid rgba(253,167,108,.45)}
+.brand b{font:500 1.35rem/1 var(--serif);letter-spacing:.12em}
+.brand small{display:block;font:700 .58rem/1 var(--sans);letter-spacing:.32em;color:var(--peach);margin-top:.35em}
+.menu{display:flex;gap:1.6rem;list-style:none;align-items:center}
+.menu a{color:#fff;text-decoration:none;font-weight:700;font-size:.95rem;opacity:.9}
+.menu a:hover{opacity:1;color:var(--peach)}
+.menu .btn{padding:.75em 1.2em;font-size:.9rem}
+.burger{display:none;background:none;border:0;color:#fff;cursor:pointer;padding:.4rem}
+.burger svg{width:30px;height:30px}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:grid;align-items:end;color:#fff;background:var(--navy);isolation:isolate;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;z-index:-2}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,26,53,.55) 0%,rgba(0,26,53,.25) 35%,rgba(0,26,53,.92) 82%,var(--navy) 100%)}
+.hero-in{padding:140px 0 96px;max-width:760px}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.9rem);margin:.35em 0 .3em}
+.hero h1 em{color:var(--peach);font-style:italic}
+.hero p.lead{font-size:clamp(1.05rem,2.1vw,1.3rem);opacity:.92;max-width:600px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.facts{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem;margin-top:2.2rem;font-weight:700;font-size:.95rem}
+.facts span{display:flex;align-items:center;gap:.5em;opacity:.95}
+.facts svg{width:18px;height:18px;color:var(--peach)}
+.rays{position:absolute;right:-60px;top:90px;width:min(520px,55vw);opacity:.22;z-index:-1;color:var(--peach)}
+
+/* seções */
+section{padding:clamp(72px,10vw,120px) 0}
+.head{max-width:720px;margin-bottom:3rem}
+.head h2{font-size:clamp(2rem,4.4vw,3.1rem);margin-top:.5rem;color:var(--navy)}
+.head p{color:var(--muted);margin-top:1rem;font-size:1.08rem}
+.dark{background:var(--navy);color:#fff}
+.dark .head h2{color:#fff}
+.dark .head p{color:rgba(255,255,255,.75)}
+
+/* sobre */
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,5rem);align-items:center}
+.about .pics{position:relative;aspect-ratio:4/5}
+.about .pics img{position:absolute;border-radius:var(--r);object-fit:cover;box-shadow:var(--shadow)}
+.about .pics img:first-child{inset:0 22% 14% 0;width:78%;height:86%}
+.about .pics img:last-child{right:0;bottom:0;width:48%;height:50%;border:6px solid var(--sand)}
+.about p+p{margin-top:1rem}
+.about p{color:#3a4256}
+.timeline{list-style:none;margin-top:2rem;border-left:2px solid var(--peach-2);padding-left:1.4rem;display:grid;gap:1.1rem}
+.timeline li{position:relative}
+.timeline li::before{content:"";position:absolute;left:calc(-1.4rem - 7px);top:.45em;width:12px;height:12px;border-radius:50%;background:var(--peach);box-shadow:0 0 0 4px var(--sand)}
+.timeline b{font-family:var(--serif);color:var(--navy);font-size:1.1rem;display:block}
+.timeline span{color:var(--muted);font-size:.98rem}
+.badge{display:inline-flex;align-items:center;gap:.6rem;margin-top:1.8rem;background:#fff;border-radius:14px;padding:.8rem 1.1rem;box-shadow:0 8px 24px -14px rgba(0,26,53,.4);font-weight:700;color:var(--navy)}
+.badge .stars{color:#f5a623;letter-spacing:2px}
+
+/* especialidades */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.card{position:relative;border-radius:var(--r);overflow:hidden;aspect-ratio:3/4;background:var(--ink);color:#fff;box-shadow:var(--shadow)}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.card:hover img{transform:scale(1.05)}
+.card .txt{position:absolute;inset:auto 0 0 0;padding:1.6rem;background:linear-gradient(0deg,rgba(0,26,53,.95),rgba(0,26,53,0))}
+.card h3{font-size:1.55rem}
+.card p{font-size:.98rem;opacity:.88;margin-top:.35rem}
+.card .price{display:inline-block;margin-top:.7rem;color:var(--peach);font-weight:700}
+
+/* experiências */
+.exp{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+.exp-item{background:var(--navy-2);border:1px solid rgba(253,167,108,.18);border-radius:var(--r);padding:1.7rem 1.4rem}
+.exp-item svg{width:38px;height:38px;color:var(--peach)}
+.exp-item h3{font-size:1.3rem;margin:.9rem 0 .4rem}
+.exp-item p{color:rgba(255,255,255,.75);font-size:.97rem}
+.gallery{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:170px;gap:.7rem;margin-top:3rem}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.gallery img:nth-child(1){grid-column:span 2;grid-row:span 2}
+.gallery img:nth-child(4){grid-column:span 2;grid-row:span 2}
+.gallery img:nth-child(7){grid-column:span 2}
+
+/* cardápio */
+.menu-sec{background:#fff}
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.1rem}
+.tab{font:700 .95rem/1 var(--sans);border:2px solid var(--navy);background:#fff;color:var(--navy);padding:.8em 1.2em;border-radius:999px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--navy);color:#fff}
+.tools{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin-bottom:1.4rem}
+.search{flex:1 1 280px;position:relative}
+.search input{width:100%;font:inherit;padding:.85em 1em .85em 2.8em;border-radius:999px;border:1.5px solid #d7dbe3;background:var(--sand);color:var(--text)}
+.search input:focus{outline:2px solid var(--peach);border-color:transparent}
+.search svg{position:absolute;left:1em;top:50%;translate:0 -50%;width:18px;height:18px;color:var(--muted)}
+.chips{display:flex;gap:.45rem;overflow-x:auto;padding-bottom:.4rem;margin-bottom:1.6rem;scrollbar-width:thin}
+.chip{flex:none;font:700 .85rem/1 var(--sans);padding:.65em 1em;border-radius:999px;border:1px solid #e3d3c6;background:var(--sand);color:var(--ink);cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--peach);border-color:var(--peach);color:var(--navy)}
+.note{background:var(--sand);border-left:4px solid var(--peach);padding:.9rem 1.1rem;border-radius:10px;color:#3a4256;font-size:.97rem;margin-bottom:1.6rem}
+.cat{margin-bottom:2.4rem}
+.cat h3{font-size:1.7rem;color:var(--navy);display:flex;align-items:baseline;gap:.8rem;margin-bottom:1rem}
+.cat h3 small{font:700 .8rem/1 var(--sans);color:var(--muted);letter-spacing:.04em}
+.items{display:grid;grid-template-columns:repeat(2,1fr);gap:.2rem 2.6rem}
+.item{padding:.9rem 0;border-bottom:1px dashed #e3d3c6}
+.item .top{display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+.item b{font-size:1.04rem;color:var(--navy)}
+.item .p{font-weight:700;color:#c8651f;white-space:nowrap;text-align:right}
+.item .p small{display:block;font-size:.72rem;color:var(--muted);font-weight:700;letter-spacing:.03em}
+.item p{color:var(--muted);font-size:.93rem;margin-top:.2rem}
+.empty{padding:2rem;text-align:center;color:var(--muted)}
+.menu-foot{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1rem}
+
+/* visite */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,4vw,3rem);align-items:stretch}
+.info{background:#fff;border-radius:var(--r);padding:clamp(1.6rem,3vw,2.4rem);box-shadow:var(--shadow)}
+.info h3{font-size:1.8rem;color:var(--navy)}
+.info dl{display:grid;gap:1.1rem;margin:1.4rem 0 1.8rem}
+.info dt{font:700 .75rem/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:#c8651f;margin-bottom:.35rem}
+.info dd a{font-weight:700;color:var(--navy)}
+.info .btns{display:flex;flex-wrap:wrap;gap:.6rem}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;box-shadow:var(--shadow);background:var(--ink)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0;display:block}
+
+/* cta */
+.cta{position:relative;color:#fff;text-align:center;overflow:hidden;isolation:isolate}
+.cta img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.cta::before{content:"";position:absolute;inset:0;background:rgba(0,26,53,.82);z-index:-1}
+.cta h2{font-size:clamp(2rem,5vw,3.4rem)}
+.cta h2 em{color:var(--peach)}
+.cta p{max-width:560px;margin:1rem auto 2rem;opacity:.9}
+.cta .ctas{display:flex;justify-content:center;flex-wrap:wrap;gap:.8rem}
+
+footer{background:#00122a;color:rgba(255,255,255,.75);padding:3.5rem 0 5rem;font-size:.95rem}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:2rem}
+footer h4{color:#fff;font:600 1.1rem/1.2 var(--serif);margin-bottom:.8rem}
+footer a{color:#fff}
+footer ul{list-style:none;display:grid;gap:.4rem}
+.credit{border-top:1px solid rgba(255,255,255,.12);margin-top:2.4rem;padding-top:1.4rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem;font-size:.85rem}
+
+/* whatsapp flutuante */
+.wa{position:fixed;right:20px;bottom:52px;z-index:55;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;border:0;cursor:pointer;box-shadow:0 10px 24px -8px rgba(0,0,0,.45)}
+.wa svg{width:32px;height:32px}
+.wa-box{position:fixed;right:20px;bottom:124px;z-index:56;width:min(330px,calc(100vw - 40px));background:#fff;border-radius:16px;box-shadow:0 24px 50px -16px rgba(0,0,0,.45);overflow:hidden;display:none}
+.wa-box.open{display:block}
+.wa-box header{position:static;background:var(--navy);color:#fff;padding:1rem 1.1rem;font-weight:700}
+.wa-box header small{display:block;font-weight:400;opacity:.8}
+.wa-box .opts{display:grid;gap:.5rem;padding:1rem}
+.wa-box a{display:block;text-decoration:none;padding:.8rem 1rem;border-radius:12px;background:var(--sand);color:var(--navy);font-weight:700}
+.wa-box a span{display:block;font-weight:400;color:var(--muted);font-size:.85rem}
+.wa-box a:hover{background:var(--peach-2)}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}.card img{transition:none}}
+
+@media (max-width:980px){
+  .menu{position:fixed;inset:76px 0 auto 0;flex-direction:column;align-items:flex-start;gap:0;background:var(--navy);padding:.6rem 4vw 1.4rem;display:none}
+  .menu.open{display:flex}
+  .menu li{width:100%}
+  .menu a:not(.btn){display:block;padding:.9rem 0;border-bottom:1px solid rgba(255,255,255,.1)}
+  .menu .btn{margin-top:1rem}
+  .burger{display:block}
+  .about,.visit{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr 1fr}
+  .exp{grid-template-columns:1fr 1fr}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .cards{grid-template-columns:1fr}
+  .card{aspect-ratio:4/4.4}
+  .exp{grid-template-columns:1fr}
+  .items{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .gallery img:nth-child(n){grid-column:auto;grid-row:auto}
+  .gallery img:nth-child(1){grid-column:span 2;grid-row:span 2}
+  .foot{grid-template-columns:1fr}
+  .hero-in{padding-bottom:80px}
+  .rays{display:none}
+  .brand b{font-size:1.15rem}
+}
+</style>
+</head>
+<body>
+
+<div class="proto" role="note">Protótipo — proposta de novo site por MC Consultoria em TI · não é o site oficial</div>
+
+<header id="top">
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Orla Mare, voltar ao início">
+      <img src="img/simbolo.jpg" alt="Símbolo da Orla Mare: sol nascendo sobre as ondas" width="46" height="46">
+      <span><b>ORLA MARE</b><small>RESTAURANTE • BAR</small></span>
+    </a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#sobre">A casa</a></li>
+      <li><a href="#pratos">Destaques</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#visite">Como chegar</a></li>
+      <li><a class="btn btn-peach" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">Reservar mesa</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio" style="padding:0">
+  <img src="img/amigos.jpg" alt="Amigos brindando em uma mesa da Orla Mare, com o letreiro iluminado ao fundo" fetchpriority="high">
+  <svg class="rays" viewBox="0 0 200 120" fill="currentColor" aria-hidden="true"><path d="M97 0h6l-1 70h-4z"/><path d="M57 10l5-2 26 64-4 2z"/><path d="M143 10l-5-2-26 64 4 2z"/><path d="M22 34l4-4 52 48-3 3z"/><path d="M178 34l-4-4-52 48 3 3z"/><path d="M0 70v-5l70 18-1 4z"/><path d="M200 70v-5l-70 18 1 4z"/><path d="M40 100c20-8 40-8 60 0s40 8 60 0v6c-20 8-40 8-60 0s-40-8-60 0z"/><path d="M60 114c14-6 27-6 40 0s27 6 40 0v5c-14 6-27 6-40 0s-27-6-40 0z"/></svg>
+  <div class="wrap">
+    <div class="hero-in">
+      <span class="eyebrow">Restaurante & Bar · Piratininga, Niterói</span>
+      <h1>Sua fome tá pra <em>Maré</em>?</h1>
+      <p class="lead">Gastronomia litorânea, carnes na brasa, massas e uma carta de drinks autorais — com música ao vivo todos os dias e espaço kids para a família inteira.</p>
+      <div class="ctas">
+        <a class="btn btn-peach" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 15l-1.3 5 5.1-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+          Reservar pelo WhatsApp</a>
+        <a class="btn btn-ghost" href="#cardapio">Ver cardápio</a>
+      </div>
+      <div class="facts">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Ter a dom · 11h à meia-noite</span>
+        <span><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.6 7L12 17.3 5.8 21l1.6-7L2 9.2l7.1-.6z"/></svg>4,9 no Google · 800+ avaliações</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Trevo de Piratininga</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <div class="wrap about">
+    <div class="pics reveal">
+      <img src="img/salao.jpg" alt="Salão da Orla Mare com sofás azuis, luminárias e o símbolo da casa na parede" loading="lazy">
+      <img src="img/casal.jpg" alt="Casal sorrindo à mesa durante um jantar na Orla Mare" loading="lazy">
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">A casa</span>
+      <h2 style="font-size:clamp(2rem,4.4vw,3.1rem);color:var(--navy);margin-top:.5rem">Do mar para a sua mesa, no coração da Região Oceânica</h2>
+      <p style="margin-top:1.2rem">A Orla Mare nasceu como um convite à experiência gastronômica litorânea: pratos frescos, preparados com ingredientes selecionados, para comer bem do almoço ao jantar.</p>
+      <p>E o sabor não para no mar. Tem carnes suculentas, massas e risotos para todos os paladares — do tradicional ao sofisticado — harmonizados com uma carta de drinks que vai dos clássicos aos autorais.</p>
+      <ul class="timeline">
+        <li><b>2025 · Abrimos as portas</b><span>Um restaurante novo no Trevo de Piratininga, feito para reunir a família e os amigos.</span></li>
+        <li><b>Música ao vivo todos os dias</b><span>Almoço, happy hour e jantar sempre com trilha sonora ao vivo.</span></li>
+        <li><b>2026 · Nota 4,9 no Google</b><span>Mais de 800 avaliações de quem já sentou à nossa mesa.</span></li>
+      </ul>
+      <div class="badge"><span class="stars" aria-hidden="true">★★★★★</span> 4,9 de 5 · 829 avaliações no Google</div>
+    </div>
+  </div>
+</section>
+
+<section id="pratos" style="padding-top:0">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Destaques da casa</span>
+      <h2>Para pedir na primeira visita</h2>
+      <p>Frutos do mar generosos, petiscos para dividir e drinks que combinam com o fim de tarde em Piratininga.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <img src="img/frutos-do-mar.jpg" alt="Cesta Orla Mare com filé de peixe, camarão e polvo grelhados" loading="lazy">
+        <div class="txt"><h3>Cesta Orla Mare</h3><p>Peixe, camarão e polvo grelhados, servidos numa cesta de parmesão.</p><span class="price">R$ 129,90</span></div>
+      </article>
+      <article class="card reveal">
+        <img src="img/camarao-internacional.jpg" alt="Camarão Internacional com camarões empanados e batata palha" loading="lazy">
+        <div class="txt"><h3>Camarão Internacional</h3><p>Camarões com catupiry empanados no panko, arroz cremoso de camarão e batata palha.</p><span class="price">a partir de R$ 169,90</span></div>
+      </article>
+      <article class="card reveal">
+        <img src="img/drinks.jpg" alt="Drinks autorais coloridos no balcão da Orla Mare" loading="lazy">
+        <div class="txt"><h3>Drinks autorais</h3><p>Orla Sunset, Orla Fresh, Brisa Orla e os clássicos de sempre.</p><span class="price">a partir de R$ 24,90</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="experiencia">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Experiência</span>
+      <h2>Almoço, happy hour e jantar no mesmo lugar</h2>
+      <p>Um ambiente pensado para ficar: mesa farta, música boa e espaço para as crianças brincarem enquanto os adultos aproveitam.</p>
+    </div>
+    <div class="exp">
+      <div class="exp-item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg><h3>Música ao vivo</h3><p>Todos os dias de funcionamento. A agenda do mês sai no Instagram.</p></div>
+      <div class="exp-item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7" r="3"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/><path d="M3 11l3 2M21 11l-3 2"/></svg><h3>Espaço kids</h3><p>Brinquedoteca com monitoria para a família curtir com tranquilidade.</p></div>
+      <div class="exp-item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3h8l-1 7a3 3 0 0 1-6 0z"/><path d="M12 13v8M8 21h8"/></svg><h3>Happy Sunset</h3><p>Drinks em dobro e petiscos com preço especial para o fim de tarde.</p></div>
+      <div class="exp-item reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg><h3>Menu Executivo</h3><p>De terça a sexta, das 11h às 16h, a partir de R$ 34,90.</p></div>
+    </div>
+    <div class="gallery">
+      <img src="img/galera.jpg" alt="Grupo de amigos reunidos na Orla Mare" loading="lazy">
+      <img src="img/musica.jpg" alt="Músico tocando ao vivo no palco da Orla Mare" loading="lazy">
+      <img src="img/drinks-trio.jpg" alt="Três drinks coloridos lado a lado" loading="lazy">
+      <img src="img/pao-fonduta.jpg" alt="Pão La Fonduta recheado de queijos derretidos" loading="lazy">
+      <img src="img/cliente.jpg" alt="Cliente brindando com um drink na Orla Mare" loading="lazy">
+      <img src="img/burger.jpg" alt="Orla Melt Burger com cheddar e bacon" loading="lazy">
+      <img src="img/letreiro.jpg" alt="Letreiro iluminado da Orla Mare na fachada à noite" loading="lazy">
+      <img src="img/camarao-espeto.jpg" alt="Espetinhos de camarão empanado" loading="lazy">
+      <img src="img/drink-morango.jpg" alt="Drink vermelho de morango em taça de coquetel" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="menu-sec" id="cardapio">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Cardápio</span>
+      <h2>Escolha sem precisar baixar PDF</h2>
+      <p>Todo o cardápio aqui, com busca e filtros. Preços sujeitos a alteração; confirme com a equipe.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Cardápios">
+      <button class="tab" role="tab" data-menu="principal" aria-selected="true">Cardápio principal</button>
+      <button class="tab" role="tab" data-menu="executivo" aria-selected="false">Menu Executivo</button>
+      <button class="tab" role="tab" data-menu="sunset" aria-selected="false">Happy Sunset</button>
+    </div>
+    <div class="tools">
+      <label class="search"><span class="sr" style="position:absolute;left:-9999px">Buscar no cardápio</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Buscar prato, drink ou ingrediente… ex.: camarão" autocomplete="off">
+      </label>
+    </div>
+    <div class="chips" id="chips" role="toolbar" aria-label="Categorias"></div>
+    <div id="menuNote"></div>
+    <div id="menuList" aria-live="polite"></div>
+    <div class="menu-foot">
+      <a class="btn btn-navy" href="https://www.ifood.com.br/delivery/niteroi-rj/orla-mare-piratininga/e33f5b41-a7b5-47f8-9392-55d2e3a70009" target="_blank" rel="noopener">Pedir no iFood</a>
+      <a class="btn btn-peach" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20card%C3%A1pio%20no%20site%20e%20gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">Reservar mesa</a>
+    </div>
+  </div>
+</section>
+
+<section id="visite">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">Como chegar</span>
+      <h2>No Trevo de Piratininga</h2>
+    </div>
+    <div class="visit">
+      <div class="info reveal">
+        <h3>Orla Mare Restaurante & Bar</h3>
+        <dl>
+          <div><dt>Endereço</dt><dd>Av. Professor Ernani Farias Alves, 172<br>Piratininga, Niterói – RJ · 24350-680</dd></div>
+          <div><dt>Horário</dt><dd>Terça a domingo, das 11h à meia-noite<br>Menu Executivo: terça a sexta, 11h às 16h</dd></div>
+          <div><dt>Reservas e contato</dt><dd><a href="https://wa.me/5521972441448" target="_blank" rel="noopener">(21) 97244-1448</a> · WhatsApp</dd></div>
+          <div><dt>Redes</dt><dd><a href="https://www.instagram.com/oficialorlamare/" target="_blank" rel="noopener">@oficialorlamare</a></dd></div>
+          <div><dt>Pagamento</dt><dd>Dinheiro, crédito, débito e vale-refeição</dd></div>
+        </dl>
+        <div class="btns">
+          <a class="btn btn-navy" href="https://www.google.com/maps/search/?api=1&query=Orla+Mare+Restaurante+e+Bar+Av.+Professor+Ernani+Farias+Alves+172+Niter%C3%B3i" target="_blank" rel="noopener">Abrir no Google Maps</a>
+          <a class="btn btn-peach" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">Reservar</a>
+        </div>
+      </div>
+      <div class="map reveal">
+        <iframe title="Mapa da Orla Mare em Piratininga, Niterói" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=-22.9448082,-43.0582581&z=16&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <img src="img/drink-sunset.jpg" alt="" loading="lazy">
+  <div class="wrap">
+    <span class="eyebrow">Te esperamos</span>
+    <h2 style="margin-top:.6rem">Bora pra <em>Maré</em> hoje?</h2>
+    <p>Reserve sua mesa pelo WhatsApp em menos de um minuto ou peça pelo iFood no conforto de casa.</p>
+    <div class="ctas">
+      <a class="btn btn-peach" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20uma%20reserva." target="_blank" rel="noopener">Reservar pelo WhatsApp</a>
+      <a class="btn btn-ghost" href="https://www.ifood.com.br/delivery/niteroi-rj/orla-mare-piratininga/e33f5b41-a7b5-47f8-9392-55d2e3a70009" target="_blank" rel="noopener">Pedir no iFood</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>ORLA MARE · Restaurante & Bar</h4>
+        <p>Gastronomia, drinks e bons momentos em Piratininga, Niterói.</p>
+      </div>
+      <div>
+        <h4>Visite</h4>
+        <ul><li>Av. Prof. Ernani Farias Alves, 172</li><li>Terça a domingo · 11h às 0h</li><li><a href="https://wa.me/5521972441448" target="_blank" rel="noopener">(21) 97244-1448</a></li></ul>
+      </div>
+      <div>
+        <h4>Navegue</h4>
+        <ul><li><a href="#cardapio">Cardápio</a></li><li><a href="#experiencia">Música ao vivo e espaço kids</a></li><li><a href="https://www.instagram.com/oficialorlamare/" target="_blank" rel="noopener">Instagram</a></li></ul>
+      </div>
+    </div>
+    <div class="credit"><span>© <span id="yr">2026</span> Orla Mare Restaurante e Bar Ltda · CNPJ 61.179.900/0001-32</span><span>Site por <a href="https://mcconsultoriati.com.br" target="_blank" rel="noopener">MC Consultoria em TI</a></span></div>
+  </div>
+</footer>
+
+<button class="wa" aria-label="Falar com a Orla Mare no WhatsApp" aria-expanded="false" aria-controls="waBox">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 15l-1.3 5 5.1-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.3-.5 0-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+</button>
+<div class="wa-box" id="waBox" role="dialog" aria-label="Atendimento pelo WhatsApp">
+  <header>Orla Mare<small>Como podemos ajudar?</small></header>
+  <div class="opts">
+    <a target="_blank" rel="noopener" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20fazer%20uma%20reserva.">Reservar mesa<span>Para hoje ou outro dia</span></a>
+    <a target="_blank" rel="noopener" href="https://wa.me/5521972441448?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20saber%20sobre%20eventos%20e%20anivers%C3%A1rios.">Aniversários e eventos<span>Grupos, confraternizações</span></a>
+    <a target="_blank" rel="noopener" href="https://www.ifood.com.br/delivery/niteroi-rj/orla-mare-piratininga/e33f5b41-a7b5-47f8-9392-55d2e3a70009">Pedir delivery<span>Pelo iFood</span></a>
+  </div>
+</div>
+
+<script>
+const ACENTO = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/oes\b/g,'ao').replace(/aes\b/g,'ao');
+const brl = v => 'R$ ' + v.toFixed(2).replace('.', ',');
+
+/* Cardápio principal — transcrito do PDF "Cardápio Principal" do Linktree (nov/2026) */
+const PRINCIPAL = [
+ {cat:'Entradas', itens:[
+  ['Balls de costela',39.90,'4 unidades de costela bovina desfiada com muçarela, empanadas no panko, com maionese da casa.'],
+  ['Burrata',59.90,'4 burratas empanadas no panko, molho romesco da casa, tomate-cereja e manjericão. Acompanha torradas.'],
+  ['Carpaccio',44.90,'Finíssimas fatias de carne, molho de alcaparras, parmesão e rúcula. Acompanha torradas.'],
+  ['Ceviche',49.90,'Cubos de peixe, pimentões, cebola roxa, limão tahiti e siciliano, sal e azeite. Acompanha torradas.'],
+  ['Bruschetta',32.90,'3 fatias de pão italiano selado no alho, tomate, molho romesco, parmesão gratinado e manjericão.'],
+  ['Linguiça de pernil',9.90,'1 unidade fatiada, com molho à campanha e farofa.'],
+  ['Queijo coalho',19.90,'2 unidades servidas com mel.'],
+  ['Pão de alho',14.90,'Pão italiano com pasta de alho da casa e muçarela gratinada.']]},
+ {cat:'Saladas', itens:[
+  ['Salada italiana',29.90,'Alface, rúcula, tomate, cenoura ralada e parmesão.'],
+  ['Salada Caesar',34.90,'Alface americana, tiras de frango grelhado, croutons, parmesão e molho caesar.']]},
+ {cat:'Burgers', itens:[
+  ['Orla Clássico Burger',39.90,'Brioche, blend bovino 160 g, muçarela, alface, cebola roxa e tomate. Com batata frita.'],
+  ['Orla Melt Burger',45.90,'Brioche, blend bovino 160 g, cheddar, bacon e cebola roxa caramelizada. Com batata frita.']]},
+ {cat:'Petiscos', itens:[
+  ['Bolinho de bacalhau',34.90,'12 unidades.'],
+  ['Pastel (6 unidades)',32.90,'Queijo, camarão ou costela.'],
+  ['Gurjão de frango',45.90,'Iscas de frango no panko com maionese da casa.'],
+  ['Gurjão de peixe',54.90,'Iscas de peixe no panko com maionese da casa.'],
+  ['Chicken Orla gratinado',59.90,'Creme de frango com catupiry e muçarela gratinada, com batata rústica e torradas.'],
+  ['Mignon ao molho madeira',99.90,'Iscas de filé mignon ao madeira com champignon. Acompanha torradas.'],
+  ['Pão La Fonduta de mignon',89.90,'Pão rústico italiano recheado de fonduta de queijos, iscas de mignon e muçarela gratinada.'],
+  ['Pão La Fonduta de camarão',89.90,'Pão rústico italiano recheado de fonduta de queijos, camarões salteados e muçarela gratinada.'],
+  ['Polvo croc',109.90,'Tentáculos de polvo no panko com vinagrete de abacaxi.'],
+  ['Cesta Orla Mare',129.90,'Peixe, camarão e polvo grelhados em cesta de parmesão. Acompanha torradas.'],
+  ['Camarão à paulista',64.90,'Camarão alho e óleo.'],
+  ['Camarão empanado',69.90,'10 camarões VM no panko, servidos no abacaxi com molho especial.'],
+  ['Camarão com catupiry',99.90,'6 camarões envoltos em catupiry e empanados no panko.'],
+  ['Linguiça mineira com aipim',49.90,'Com aipim frito e farofa.'],
+  ['Calabresa com fritas',44.90,'Calabresa acebolada com fritas e farofa.'],
+  ['Baby beef com fritas',89.90,'Iscas de baby beef aceboladas com fritas e farofa.'],
+  ['Orla Mix',134.00,'Frango, baby beef, linguiça mineira e aipim, com pão de alho e farofa.'],
+  ['Frango à passarinho',42.90,'Com bastante alho torrado.'],
+  ['Batata frita',29.90,'Corte 7 mm, bem crocante.'],
+  ['Batata rústica',34.90,'Corte rústico, bem crocante.'],
+  ['Batata Orla',39.90,'Com cheddar ou catupiry e bastante bacon.'],
+  ['Aipim frito',24.90,'Com parmesão ralado.']]},
+ {cat:'Pratos individuais', itens:[
+  ['Filé Oswaldo Aranha',69.90,'Mignon com alho torrado, arroz, fritas, molho à campanha e farofa.'],
+  ['Filé mignon à parmegiana',69.90,'Com arroz e fritas.'],
+  ['Fettuccine de mignon',69.90,'Iscas de mignon, molho de catupiry e parmesão gratinado, em cesta de parmesão.'],
+  ['Risoto de mignon com funghi',89.90,'Iscas de mignon, funghi e gorgonzola, finalizado com parmesão.'],
+  ['Frango com catupiry gratinado',54.90,'Frango acebolado com catupiry e muçarela, arroz e fritas.'],
+  ['Fettuccine de camarão',69.90,'Camarões salteados, molho de catupiry e parmesão gratinado, em cesta de parmesão.'],
+  ['Risoto de camarão',69.90,'Camarões salteados e raspas de limão-siciliano, finalizado com parmesão.'],
+  ['Arroz negro com polvo',89.90,'Polvo grelhado e um toque de molho de vinho tinto.'],
+  ['Filé de peixe com molho de camarão',65.90,'Peixe no panko, molho vermelho de camarão, arroz com brócolis e fritas.']]},
+ {cat:'Para compartilhar', sub:'2 preços: para 2 · para 4 pessoas', duo:true, itens:[
+  ['Baby beef ao molho de mostarda',[124.90,224.90],'Com arroz e batata rústica.'],
+  ['Bife de chorizo',[134.90,234.90],'Com arroz, fritas, molho à campanha e farofa.'],
+  ['Picanha',[169.90,299.90],'Com arroz maluco, fritas, molho à campanha e farofa.'],
+  ['Prime rib',[199.90,349.90],'Com arroz, fritas, campanha de abacaxi, farofa e chimichurri.'],
+  ['Churrasco misto',[129.90,229.90],'Baby beef, frango e linguiça toscana, com arroz, fritas, campanha e farofa.'],
+  ['Mignon à francesa',[134.90,234.90],'Com guarnição à francesa e arroz.'],
+  ['Mignon à piamontese',[159.90,279.90],'Ao molho madeira, com arroz à piamontese e batata rústica.'],
+  ['Strogonoff de carne',[119.90,214.90],'Com arroz e fritas.'],
+  ['Costela desfiada ao molho 3 queijos',[154.90,279.90],'Muçarela, parmesão e gorgonzola, com arroz e batata rústica.'],
+  ['Filé de frango à francesa',[99.90,174.90],'Com guarnição à francesa e arroz.'],
+  ['Frango ao molho de mostarda e mel',[119.90,199.90],'Empanado no panko, com farofa de bacon, arroz e batata rústica.'],
+  ['Frango à parmegiana',[119.90,199.90],'Com arroz e fritas.'],
+  ['Camarão no coco',[159.90,289.90],'Camarões com catupiry, servidos no coco verde, com arroz e fritas.'],
+  ['Camarão no abacaxi',[159.90,289.90],'Camarões com catupiry e abacaxi, com arroz e fritas.'],
+  ['Camarão Internacional',[169.90,299.90],'Camarões com catupiry no panko, arroz cremoso de camarão e batata palha.'],
+  ['Bobó de camarão',[139.90,239.90],'Com arroz e fritas.'],
+  ['Moqueca de peixe',[129.90,229.90],'Com banana-da-terra selada, arroz, pirão e farofa de dendê.'],
+  ['Peixe à Delícia',[129.90,229.90],'Peixe grelhado, arroz de vegetais, creme de banana-da-terra e batata rústica.'],
+  ['Filé de peixe empanado',[124.90,214.90],'Com arroz, pirão, fritas e salada.'],
+  ['Filé de peixe Orla',[134.90,234.90],'No panko, molho branco de camarão e muçarela gratinada, arroz com brócolis e batata rústica.'],
+  ['Salmão à moda do chef',[189.90,339.90],'Salmão grelhado, molho de gorgonzola e camarões, arroz, farofa de maracujá e batata rústica.']]},
+ {cat:'Guarnições', itens:[
+  ['Arroz',19.90,''],['Arroz com brócolis',25.90,''],['Arroz à piamontese',34.90,''],['Feijão',19.90,''],
+  ['Pirão',15.90,''],['Espaguete na manteiga',19.90,''],['Farofa',19.90,''],['Molho à campanha',19.90,'']]},
+ {cat:'Menu kids', itens:[
+  ['Escalopinho de carne',39.90,'Tirinhas de baby beef, arroz, feijão e batata frita ou purê.'],
+  ['Filezinho de frango',34.90,'Tirinhas de frango, arroz, feijão e batata frita ou purê.'],
+  ['Espaguete à bolonhesa',34.90,'Finalizado com muçarela gratinada.']]},
+ {cat:'Sobremesas', itens:[
+  ['Petit gâteau com sorvete',29.90,''],['Brownie com sorvete',29.90,''],['Taça de churros com doce de leite',29.90,''],
+  ['Pudim de leite Orla',14.90,''],['Taça de sorvete',14.90,'']]},
+ {cat:'Drinks', itens:[
+  ['Orla Sunset',34.90,'Vodka, maracujá, morango e espuma de gengibre.'],
+  ['Orla Fresh',37.90,'Vodka, uva, kiwi e espuma de limão-siciliano.'],
+  ['Brisa Orla',32.90,'Vodka, melancia, xarope de morango e espuma de limão-siciliano.'],
+  ['Green Sea',37.90,'Vodka, kiwi, xarope de maçã verde, Schweppes citrus e espuma de gengibre.'],
+  ['Blue Sky',34.90,'Blue curaçao, vodka, rum, abacaxi, limão e hortelã.'],
+  ['Piña colada',34.90,'Rum, leite de coco, leite condensado, creme de leite, abacaxi, coco ralado e calda de chocolate.'],
+  ['Negroni',34.90,'Gin, vermute tinto e Campari.'],
+  ['Fitzgerald',34.90,'Gin, limão-siciliano e angostura.'],
+  ['Margarita',34.90,'Tequila, Cointreau e limão.'],
+  ['Mojito',29.90,'Rum, limão, água com gás e hortelã.'],
+  ['Aperol Spritz',34.90,'Aperol, espumante e água com gás.'],
+  ['Moscow Mule',29.90,'Vodka, limão, xarope e espuma de gengibre.'],
+  ['Sex on the Beach',29.90,'Vodka, licor de pêssego, laranja e grenadine.'],
+  ['Gin tônica standard',29.90,'Gordon’s, tônica e frutas (consulte sabores).'],
+  ['Gin tônica premium',34.90,'Tanqueray, tônica e frutas (consulte sabores).'],
+  ['Gin tropical standard',32.90,'Gordon’s e Red Bull Tropical.'],
+  ['Gin tropical premium',37.90,'Tanqueray e Red Bull Tropical.'],
+  ['Caipirinha',24.90,'Cachaça 51 e frutas (consulte sabores).'],
+  ['Caipivodka standard',29.90,'Smirnoff e frutas (consulte sabores).'],
+  ['Caipivodka premium',34.90,'Absolut e frutas (consulte sabores).'],
+  ['Jarra de clericô',89.90,'Espumante, Schweppes citrus, licor de pêssego e frutas.']]},
+ {cat:'Cervejas e chope', itens:[
+  ['Chope Noi — taça',11.90,''],['Chope Noi — caldereta',10.90,''],
+  ['Heineken 600 ml',15.90,''],['Original 600 ml',13.90,''],['Stella Artois long neck',10.90,''],
+  ['Corona long neck',11.90,''],['Heineken long neck',10.90,''],['Heineken Zero',10.90,'']]},
+ {cat:'Doses', itens:[
+  ['Cachaça Salinas',15.90,''],['Dom Luiz',19.90,''],['Smirnoff',18.90,''],['Absolut',24.90,''],['Tanqueray',24.90,''],
+  ['Red Label',24.90,''],['Tequila prata',24.90,''],['Ballena',25.90,''],['Black Label',29.90,''],['Licor 43',29.90,'']]},
+ {cat:'Sem álcool', itens:[
+  ['Água sem gás',5.90,''],['Água com gás',6.90,''],['Café expresso',6.90,''],['Água tônica',8.90,''],['Refrigerante',8.90,''],
+  ['Del Valle',8.90,''],['Schweppes',8.90,''],['Ice tea',9.90,''],['H2O Limoneto',10.90,''],['Matte da casa',12.90,''],
+  ['Copo de suco natural',14.90,''],['Red Bull',15.90,''],['Soda italiana',18.90,'']]}
+];
+
+const EXECUTIVO = [
+ {cat:'Pratos', sub:'terça a sexta · 11h às 16h', itens:[
+  ['Baby beef',46.90,'Arroz, feijão, fritas, salada e farofa.'],
+  ['Baby beef à parmegiana',49.90,'Arroz, purê de batata e salada.'],
+  ['Frango grelhado',34.90,'Arroz, feijão, fritas, salada e farofa.'],
+  ['Frango empanado',36.90,'Arroz, feijão, fritas, salada e farofa.'],
+  ['Frango à parmegiana',39.90,'Arroz, purê de batata e salada.'],
+  ['Strogonoff de frango',34.90,'Arroz e fritas.'],
+  ['Filé de peixe empanado',39.90,'Arroz, pirão, fritas e salada.'],
+  ['Mignon suíno',37.90,'Arroz, fritas, molho à campanha e farofa.'],
+  ['Linguiça mineira',36.90,'Arroz, feijão, fritas, salada e farofa.'],
+  ['Calabresa',34.90,'Arroz, feijão, fritas, salada e farofa.']]},
+ {cat:'Sobremesa', itens:[['Pudim de leite Orla',9.90,''],['Taça de sorvete',9.90,'']]}
+];
+
+const SUNSET = [
+ {cat:'Bebidas em dobro', itens:[
+  ['Caipirinha (limão ou abacaxi)',24.90,'Pediu uma, vêm duas.'],
+  ['Caipivodka (limão ou abacaxi)',29.90,'Pediu uma, vêm duas.'],
+  ['Gin tônica tradicional',29.90,'Pediu uma, vêm duas.'],
+  ['Chope taça',11.90,'Pediu um, vêm dois.']]},
+ {cat:'Petiscos', itens:[
+  ['Bolinho de bacalhau',25.90,''],['Gurjão de frango',35.90,''],['Linguiça mineira com aipim',39.90,''],
+  ['Frango à passarinho',29.90,''],['Batata frita',24.90,''],['Chicken Orla',49.90,'']]}
+];
+
+const MENUS = {
+  principal:{data:PRINCIPAL, note:''},
+  executivo:{data:EXECUTIVO, note:'<div class="note"><b>Menu Executivo:</b> de terça a sexta, das 11h às 16h. Pratos completos para o almoço de todo dia.</div>'},
+  sunset:{data:SUNSET, note:'<div class="note"><b>Happy Sunset:</b> bebidas em dobro e petiscos com preço especial. Consulte os dias e horários com a equipe.</div>'}
+};
+let atual='principal', catAtiva='Todas';
+const $list=document.getElementById('menuList'), $chips=document.getElementById('chips'), $q=document.getElementById('q'), $note=document.getElementById('menuNote');
+
+function renderChips(){
+  const cats=['Todas',...MENUS[atual].data.map(c=>c.cat)];
+  $chips.innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===catAtiva}" data-cat="${c}">${c}</button>`).join('');
+}
+function renderList(){
+  const q=ACENTO($q.value.trim());
+  $note.innerHTML=MENUS[atual].note;
+  const html=MENUS[atual].data
+    .filter(c=>catAtiva==='Todas'||c.cat===catAtiva)
+    .map(c=>{
+      const its=c.itens.filter(([n,,d])=>!q||ACENTO(n+' '+d+' '+c.cat).includes(q));
+      if(!its.length) return '';
+      return `<div class="cat"><h3>${c.cat}${c.sub?` <small>${c.sub}</small>`:''}</h3><div class="items">${
+        its.map(([n,p,d])=>`<div class="item"><div class="top"><b>${n}</b><span class="p">${
+          Array.isArray(p)?`${brl(p[0])}<small>para 2</small>${brl(p[1])}<small>para 4</small>`:brl(p)
+        }</span></div>${d?`<p>${d}</p>`:''}</div>`).join('')
+      }</div></div>`;
+    }).join('');
+  $list.innerHTML=html||`<p class="empty">Nada encontrado para “${$q.value.replace(/[<>&"]/g,'')}”. Tente outra palavra, como “camarão” ou “gin”.</p>`;
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t));
+  atual=t.dataset.menu; catAtiva='Todas'; renderChips(); renderList();
+}));
+$chips.addEventListener('click',e=>{const b=e.target.closest('.chip'); if(!b) return; catAtiva=b.dataset.cat; renderChips(); renderList();});
+$q.addEventListener('input',renderList);
+renderChips(); renderList();
+
+/* topo, menu mobile, WhatsApp, animações */
+const hdr=document.querySelector('header#top');
+const onScroll=()=>hdr.classList.toggle('solid',scrollY>40); onScroll(); addEventListener('scroll',onScroll,{passive:true});
+const burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+burger.addEventListener('click',()=>{const o=menu.classList.toggle('open'); burger.setAttribute('aria-expanded',o);});
+menu.addEventListener('click',e=>{if(e.target.closest('a')){menu.classList.remove('open'); burger.setAttribute('aria-expanded',false);}});
+const wa=document.querySelector('.wa'), box=document.getElementById('waBox');
+wa.addEventListener('click',()=>{const o=box.classList.toggle('open'); wa.setAttribute('aria-expanded',o);});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){box.classList.remove('open'); wa.setAttribute('aria-expanded',false);}});
+if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in'); io.unobserve(en.target);}}),{rootMargin:'0px 0px -8% 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+} else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+document.getElementById('yr').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
